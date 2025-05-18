@@ -13,7 +13,10 @@ const UniversalLayout = ({ children }: { children: React.ReactNode }) => {
         lang="en"
         className={`${inter.className} bg-void-background text-text min-h-screen max-w-screen-sm text-base font-normal`}
       >
-        <body>{children}</body>
+        <body>
+          <div>SideBar</div>
+          {children}
+        </body>
       </html>
     </QueryClientProvider>
   );
