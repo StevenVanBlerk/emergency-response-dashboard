@@ -1,4 +1,4 @@
-type patchPanicRequestStatusParams = {
+type PatchPanicRequestStatusParams = {
   id: string;
   status: "OPEN" | "ACKNOWLEDGED" | "DISPATCHED" | "RESOLVED";
 };
@@ -26,7 +26,7 @@ export type PatchPanicRequestStatusResponseData = {
 };
 
 export const patchPanicRequestStatus = async (
-  body: patchPanicRequestStatusParams,
+  body: PatchPanicRequestStatusParams,
 ): Promise<PatchPanicRequestStatusResponseData> => {
   const res = await fetch("/api/panicRequest/patchPanicRequestStatus", {
     method: "PATCH",
