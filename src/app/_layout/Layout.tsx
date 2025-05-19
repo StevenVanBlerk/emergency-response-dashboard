@@ -11,7 +11,7 @@ const UniversalLayout = ({ children }: { children: React.ReactNode }) => {
     <QueryClientProvider client={queryClient}>
       <html
         lang="en"
-        className={`${inter.className} flex min-h-screen items-center justify-center bg-[#1e1e1e] text-base font-normal`}
+        className={`${inter.className} flex min-h-screen p-4 text-base font-normal`}
       >
         <body className="w-fit">{children}</body>
       </html>
