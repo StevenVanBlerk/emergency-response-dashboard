@@ -1,4 +1,4 @@
-# Emergency response API
+# Emergency response dashboard
 This repository is 1 of 3 that forms a proof of concept emergency response service.
 - [Emergency response API](https://github.com/StevenVanBlerk/emergency-response-api) - An API that allows for creation and management and panic requests.
 - [Guuber emergency response](https://github.com/StevenVanBlerk/guuber-emergency-response) - A mock third-party service that is incorporating the API allowing users to create panic requests.
